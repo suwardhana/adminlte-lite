@@ -61,6 +61,7 @@
                     </li>
                     <li class="footer">
                       <a href="#">View all</a>
+                      tes
                     </li>
                   </ul>
                 </li>
