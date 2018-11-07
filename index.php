@@ -84,192 +84,76 @@
               </div>
               <div class="pull-left info">
                 <p>Username</p>
+              </div>
+            </div>
+            <!-- /.search form -->
+            <!-- sidebar menu: : style can be found in sidebar.less -->
+            <ul class="sidebar-menu" data-widget="tree">
+              <li class="header">MAIN NAVIGATION</li>
+              <li class="treeview">
                 <a href="#">
-                  <i class="fa fa-circle text-success"></i> Online</a>
+                  <i class="fa fa-dashboard"></i>
+                  <span>Dashboard</span>
+                  <span class="pull-right-container">
+                    <i class="fa fa-angle-left pull-right"></i>
+                  </span>
+                </a>
+                <ul class="treeview-menu">
+                  <li class="active">
+                    <a href="index.html">
+                      <i class="fa fa-circle-o"></i> Dashboard v1
+                    </a>
+                  </li>
+                  <li>
+                    <a href="index2.html">
+                      <i class="fa fa-circle-o"></i> Dashboard v2
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>a</li>
+            </ul>
+          </section>
+          <!-- /.sidebar -->
+        </aside>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+          <!-- Content Header (Page header) -->
+          <section class="content-header">
+            <h1>
+              judul app
+              <small></small>
+            </h1>
+          </section>
+
+          <!-- Main content -->
+          <section class="content">
+            <!-- Small boxes (Stat box) -->
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="row">
+
                 </div>
               </div>
-              <!-- /.search form -->
-              <!-- sidebar menu: : style can be found in sidebar.less -->
-              <ul class="sidebar-menu" data-widget="tree">
-                <li class="header">MAIN NAVIGATION</li>
-                <li class="active treeview">
-                  <a href="#">
-                    <i class="fa fa-dashboard"></i>
-                    <span>Dashboard</span>
-                    <span class="pull-right-container">
-                      <i class="fa fa-angle-left pull-right"></i>
-                    </span>
-                  </a>
-                  <ul class="treeview-menu">
-                    <li class="active">
-                      <a href="index.html">
-                        <i class="fa fa-circle-o"></i> Dashboard v1</a>
-                      </li>
-                      <li>
-                        <a href="index2.html">
-                          <i class="fa fa-circle-o"></i> Dashboard v2</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="treeview">
-                      <a href="#">
-                        <i class="fa fa-share"></i>
-                        <span>Multilevel</span>
-                        <span class="pull-right-container">
-                          <i class="fa fa-angle-left pull-right"></i>
-                        </span>
-                      </a>
-                      <ul class="treeview-menu">
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-circle-o"></i> Level One</a>
-                          </li>
-                          <li class="treeview">
-                            <a href="#">
-                              <i class="fa fa-circle-o"></i> Level One
-                              <span class="pull-right-container">
-                                <i class="fa fa-angle-left pull-right"></i>
-                              </span>
-                            </a>
-                            <ul class="treeview-menu">
-                              <li>
-                                <a href="#">
-                                  <i class="fa fa-circle-o"></i> Level Two</a>
-                                </li>
-                                <li class="treeview">
-                                  <a href="#">
-                                    <i class="fa fa-circle-o"></i> Level Two
-                                    <span class="pull-right-container">
-                                      <i class="fa fa-angle-left pull-right"></i>
-                                    </span>
-                                  </a>
-                                  <ul class="treeview-menu">
-                                    <li>
-                                      <a href="#">
-                                        <i class="fa fa-circle-o"></i> Level Three</a>
-                                      </li>
-                                      <li>
-                                        <a href="#">
-                                          <i class="fa fa-circle-o"></i> Level Three</a>
-                                        </li>
-                                      </ul>
-                                    </li>
-                                  </ul>
-                                </li>
-                                <li>
-                                  <a href="#">
-                                    <i class="fa fa-circle-o"></i> Level One</a>
-                                  </li>
-                                </ul>
-                              </li>
-                              <li>
-                                <a href="https://adminlte.io/docs">
-                                  <i class="fa fa-book"></i>
-                                  <span>Documentation</span>
-                                </a>
-                              </li>
-                            </ul>
-                          </section>
-                          <!-- /.sidebar -->
-                        </aside>
+            </div>
+            <!-- /.row -->
+            <!-- Main row -->
+            <!-- /.row (main row) -->
+          </section>
+          <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+      </div>
+      <!-- ./wrapper -->
 
-                        <!-- Content Wrapper. Contains page content -->
-                        <div class="content-wrapper">
-                          <!-- Content Header (Page header) -->
-                          <section class="content-header">
-                            <h1>
-                              judul app
-                              <small></small>
-                            </h1>
-                          </section>
+      <!-- <script src="dist/vendors.bundle.js"></script> -->
+      <script src="dist/adminlte.min.js"></script>
 
-                          <!-- Main content -->
-                          <section class="content">
-                            <!-- Small boxes (Stat box) -->
-                            <div class="row">
-                              <div class="panel panel-default">
-                                <div class="panel-body">
-                                  <div class="row">
-t
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <!-- /.row -->
-                            <!-- Main row -->
-                            <!-- /.row (main row) -->
-                          </section>
-                          <!-- /.content -->
-                        </div>
-                        <div class="panel panel-default"></div>
-                        <!-- /.panel panel-default -->
-                        <!-- /.content-wrapper -->
-                        <footer class="main-footer">
-                          <div class="pull-right hidden-xs">
-                            <b>Version</b> 2.4.0
-                          </div>
-                          </footer>
+      <script>
+      var body = $('body');
+      console.log(body);
+      </script>
+    </body>
 
-                          <!-- Control Sidebar -->
-                          <aside class="control-sidebar control-sidebar-dark">
-                            <!-- Tab panes -->
-                            <div class="tab-content">
-                              <form method="post">
-                                <h3 class="control-sidebar-heading">General Settings</h3>
-
-                                <div class="form-group">
-                                  <label class="control-sidebar-subheading">
-                                    Report panel usage
-                                    <input type="checkbox" class="pull-right" checked>
-                                  </label>
-
-                                  <p>
-                                    Some information about this general settings option
-                                  </p>
-                                </div>
-                                <!-- /.form-group -->
-
-                                <div class="form-group">
-                                  <label class="control-sidebar-subheading">
-                                    Allow mail redirect
-                                    <input type="checkbox" class="pull-right" checked>
-                                  </label>
-
-                                  <p>
-                                    Other sets of options are available
-                                  </p>
-                                </div>
-                                <!-- /.form-group -->
-
-                                <div class="form-group">
-                                  <label class="control-sidebar-subheading">
-                                    Expose author name in posts
-                                    <input type="checkbox" class="pull-right" checked>
-                                  </label>
-
-                                  <p>
-                                    Allow the user to show his name in blog posts
-                                  </p>
-                                </div>
-                                <!-- /.form-group -->
-                              </form>
-                              <!-- /.tab-pane -->
-                            </div>
-                          </aside>
-                          <!-- /.control-sidebar -->
-                          <!-- Add the sidebar's background. This div must be placed
-                          immediately after the control sidebar -->
-                          <div class="control-sidebar-bg"></div>
-                        </div>
-                        <!-- ./wrapper -->
-
-                        <!-- <script src="dist/vendors.bundle.js"></script> -->
-                        <script src="dist/adminlte.min.js"></script>
-
-                        <script>
-                        var body = $('body');
-                        console.log(body);
-                        </script>
-                      </body>
-
-                      </html>
+    </html>
