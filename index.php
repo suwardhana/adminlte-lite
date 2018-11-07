@@ -41,36 +41,12 @@
 
             <div class="navbar-custom-menu">
               <ul class="nav navbar-nav">
-                <!-- Notifications: style can be found in dropdown.less -->
-                <li class="dropdown notifications-menu">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    <i class="fa fa-bell-o"></i>
-                    <span class="label label-warning">1</span>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li class="header">You have 1 notifications</li>
-                    <li>
-                      <!-- inner menu: contains the actual data -->
-                      <ul class="menu">
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-users text-aqua"></i> 5 new members joined today
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="footer">
-                      <a href="#">View all</a>
-                      tes
-                    </li>
-                  </ul>
-                </li>
                 <!-- Tasks: style can be found in dropdown.less -->
                 <!-- User Account: style can be found in dropdown.less -->
                 <li class="dropdown user user-menu">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     <img src="img/avatar.png" class="user-image" alt="User Image">
-                    <span class="hidden-xs">Alexander Pierce</span>
+                    <span class="hidden-xs">username</span>
                   </a>
                   <ul class="dropdown-menu">
                     <!-- User image -->
@@ -78,8 +54,8 @@
                       <img src="img/avatar.png" class="img-circle" alt="User Image">
 
                       <p>
-                        <?= $username ?>
-                        <small>Member since Nov. 2012</small>
+                        $username
+                        <small>//$role</small>
                       </p>
                     </li>
                     <!-- Menu Footer-->
@@ -107,7 +83,7 @@
                 <img src="img/avatar.png" class="img-circle" alt="User Image">
               </div>
               <div class="pull-left info">
-                <p>Alexander Pierce</p>
+                <p>Username</p>
                 <a href="#">
                   <i class="fa fa-circle text-success"></i> Online</a>
                 </div>
@@ -202,169 +178,98 @@
                           <!-- Content Header (Page header) -->
                           <section class="content-header">
                             <h1>
-                              Dashboard
-                              <small>Control panel</small>
+                              judul app
+                              <small></small>
                             </h1>
-                            <ol class="breadcrumb">
-                              <li>
-                                <a href="#">
-                                  <i class="fa fa-dashboard"></i> Home</a>
-                                </li>
-                                <li class="active">Dashboard</li>
-                              </ol>
-                            </section>
+                          </section>
 
-                            <!-- Main content -->
-                            <section class="content">
-                              <!-- Small boxes (Stat box) -->
-                              <div class="row">
-                                <div class="col-lg-3 col-xs-6">
-                                  <!-- small box -->
-                                  <div class="small-box bg-aqua">
-                                    <div class="inner">
-                                      <h3>150</h3>
-
-                                      <p>New Orders</p>
-                                    </div>
-                                    <div class="icon">
-                                      <i class="fa fa-cog"></i>
-                                    </div>
-                                    <a href="#" class="small-box-footer">More info
-                                      <i class="fa fa-arrow-circle-right"></i>
-                                    </a>
+                          <!-- Main content -->
+                          <section class="content">
+                            <!-- Small boxes (Stat box) -->
+                            <div class="row">
+                              <div class="panel panel-default">
+                                <div class="panel-body">
+                                  <div class="row">
+t
                                   </div>
                                 </div>
-                                <!-- ./col -->
-                                <div class="col-lg-3 col-xs-6">
-                                  <!-- small box -->
-                                  <div class="small-box bg-green">
-                                    <div class="inner">
-                                      <h3>53
-                                        <sup style="font-size: 20px">%</sup>
-                                      </h3>
-
-                                      <p>Bounce Rate</p>
-                                    </div>
-                                    <div class="icon">
-                                      <i class="fa fa-cogs"></i>
-                                    </div>
-                                    <a href="#" class="small-box-footer">More info
-                                      <i class="fa fa-arrow-circle-right"></i>
-                                    </a>
-                                  </div>
-                                </div>
-                                <!-- ./col -->
-                                <div class="col-lg-3 col-xs-6">
-                                  <!-- small box -->
-                                  <div class="small-box bg-yellow">
-                                    <div class="inner">
-                                      <h3>44</h3>
-
-                                      <p>User Registrations</p>
-                                    </div>
-                                    <div class="icon">
-                                      <i class="fa fa-user"></i>
-                                    </div>
-                                    <a href="#" class="small-box-footer">More info
-                                      <i class="fa fa-arrow-circle-right"></i>
-                                    </a>
-                                  </div>
-                                </div>
-                                <!-- ./col -->
-                                <div class="col-lg-3 col-xs-6">
-                                  <!-- small box -->
-                                  <div class="small-box bg-red">
-                                    <div class="inner">
-                                      <h3>65</h3>
-
-                                      <p>Unique Visitors</p>
-                                    </div>
-                                    <div class="icon">
-                                      <i class="fa fa-users"></i>
-                                    </div>
-                                    <a href="#" class="small-box-footer">More info
-                                      <i class="fa fa-arrow-circle-right"></i>
-                                    </a>
-                                  </div>
-                                </div>
-                                <!-- ./col -->
                               </div>
-                              <!-- /.row -->
-                              <!-- Main row -->
-                              <!-- /.row (main row) -->
-
-                            </section>
-                            <!-- /.content -->
-                          </div>
-                          <!-- /.content-wrapper -->
-                          <footer class="main-footer">
-                            <div class="pull-right hidden-xs">
-                              <b>Version</b> 2.4.0
                             </div>
-                            <strong>Copyright &copy; 2014-2016
-                              <a href="https://adminlte.io">Almsaeed Studio</a>.</strong> All rights reserved.
-                            </footer>
-
-                            <!-- Control Sidebar -->
-                            <aside class="control-sidebar control-sidebar-dark">
-                              <!-- Tab panes -->
-                              <div class="tab-content">
-                                <form method="post">
-                                  <h3 class="control-sidebar-heading">General Settings</h3>
-
-                                  <div class="form-group">
-                                    <label class="control-sidebar-subheading">
-                                      Report panel usage
-                                      <input type="checkbox" class="pull-right" checked>
-                                    </label>
-
-                                    <p>
-                                      Some information about this general settings option
-                                    </p>
-                                  </div>
-                                  <!-- /.form-group -->
-
-                                  <div class="form-group">
-                                    <label class="control-sidebar-subheading">
-                                      Allow mail redirect
-                                      <input type="checkbox" class="pull-right" checked>
-                                    </label>
-
-                                    <p>
-                                      Other sets of options are available
-                                    </p>
-                                  </div>
-                                  <!-- /.form-group -->
-
-                                  <div class="form-group">
-                                    <label class="control-sidebar-subheading">
-                                      Expose author name in posts
-                                      <input type="checkbox" class="pull-right" checked>
-                                    </label>
-
-                                    <p>
-                                      Allow the user to show his name in blog posts
-                                    </p>
-                                  </div>
-                                  <!-- /.form-group -->
-                                </form>
-                                <!-- /.tab-pane -->
-                              </div>
-                            </aside>
-                            <!-- /.control-sidebar -->
-                            <!-- Add the sidebar's background. This div must be placed
-                            immediately after the control sidebar -->
-                            <div class="control-sidebar-bg"></div>
+                            <!-- /.row -->
+                            <!-- Main row -->
+                            <!-- /.row (main row) -->
+                          </section>
+                          <!-- /.content -->
+                        </div>
+                        <div class="panel panel-default"></div>
+                        <!-- /.panel panel-default -->
+                        <!-- /.content-wrapper -->
+                        <footer class="main-footer">
+                          <div class="pull-right hidden-xs">
+                            <b>Version</b> 2.4.0
                           </div>
-                          <!-- ./wrapper -->
+                          </footer>
 
-                          <!-- <script src="dist/vendors.bundle.js"></script> -->
-                          <script src="dist/adminlte.min.js"></script>
+                          <!-- Control Sidebar -->
+                          <aside class="control-sidebar control-sidebar-dark">
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                              <form method="post">
+                                <h3 class="control-sidebar-heading">General Settings</h3>
 
-                          <script>
-                          var body = $('body');
-                          console.log(body);
-                          </script>
-                        </body>
+                                <div class="form-group">
+                                  <label class="control-sidebar-subheading">
+                                    Report panel usage
+                                    <input type="checkbox" class="pull-right" checked>
+                                  </label>
 
-                        </html>
+                                  <p>
+                                    Some information about this general settings option
+                                  </p>
+                                </div>
+                                <!-- /.form-group -->
+
+                                <div class="form-group">
+                                  <label class="control-sidebar-subheading">
+                                    Allow mail redirect
+                                    <input type="checkbox" class="pull-right" checked>
+                                  </label>
+
+                                  <p>
+                                    Other sets of options are available
+                                  </p>
+                                </div>
+                                <!-- /.form-group -->
+
+                                <div class="form-group">
+                                  <label class="control-sidebar-subheading">
+                                    Expose author name in posts
+                                    <input type="checkbox" class="pull-right" checked>
+                                  </label>
+
+                                  <p>
+                                    Allow the user to show his name in blog posts
+                                  </p>
+                                </div>
+                                <!-- /.form-group -->
+                              </form>
+                              <!-- /.tab-pane -->
+                            </div>
+                          </aside>
+                          <!-- /.control-sidebar -->
+                          <!-- Add the sidebar's background. This div must be placed
+                          immediately after the control sidebar -->
+                          <div class="control-sidebar-bg"></div>
+                        </div>
+                        <!-- ./wrapper -->
+
+                        <!-- <script src="dist/vendors.bundle.js"></script> -->
+                        <script src="dist/adminlte.min.js"></script>
+
+                        <script>
+                        var body = $('body');
+                        console.log(body);
+                        </script>
+                      </body>
+
+                      </html>
