@@ -78,10 +78,6 @@
 
                       <p>
                         <?= $username ?>
-                        new line
-
-
-
                         <small>Member since Nov. 2012</small>
                       </p>
                     </li>
